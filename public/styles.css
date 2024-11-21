@@ -1,0 +1,301 @@
+* General Reset */
+/* Sell Notes Styles */
+/* Notes Marketplace */
+
+/* Notes Marketplace */
+/* About Section */
+/* Add this to your existing styles.css */
+
+html, body {
+  height: 100%; /* Ensure the body takes the full height of the viewport */
+}
+
+body {
+  display: flex; /* Make the body a flex container */
+  flex-direction: column; /* Stack items vertically */
+}
+
+section {
+  flex: 1; /* Allow the section to grow and push footer down */
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: #fff;
+  padding: 1rem 0;
+  margin-top: 0; /* Adjust margins if necessary, ensure it doesn't push it further */
+}
+
+#about {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+  }
+  
+  .team-member {
+    margin: 1rem auto;
+    max-width: 600px;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background: #fff;
+  }
+  
+  .team-member h3 {
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .team-member p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 2rem;
+    background: #fff;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 1rem;
+  }
+  
+  form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  #formMessage {
+    margin-top: 1rem;
+    font-weight: bold;
+  }
+  
+#marketplace {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  .note {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .note h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .note p {
+    margin: 0.5rem 0;
+  }
+  
+  .download-btn {
+    background: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: inline-block;
+  }
+  
+  .download-btn:hover {
+    background: #555;
+  }
+  
+#marketplace {
+    margin: 2rem auto;
+    max-width: 800px;
+  }
+  
+  .note {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+  }
+  
+  .note h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .note p {
+    margin: 0.5rem 0;
+  }
+  
+  .note button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .note button:hover {
+    background: #555;
+  }
+  
+#sell-notes form {
+    max-width: 600px;
+    margin: 2rem auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #sell-notes form label {
+    margin-top: 1rem;
+  }
+  
+  #sell-notes form input, #sell-notes form textarea, #sell-notes form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  #sell-notes form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #sell-notes form button:hover {
+    background: #555;
+  }
+  
+  #notesList {
+    margin: 2rem auto;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+  }
+  
+  .note {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #f9f9f9;
+    border-radius: 5px;
+    text-align: left;
+  }
+  
+  .note h4 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .note p {
+    margin: 0.5rem 0;
+  }
+  
+  * 
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+  }
+  
+  header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+  }
+  
+  header nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header nav ul li {
+    margin: 0 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  section {
+    padding: 2rem 10%;
+  }
+  
+  #home, #about, #contact {
+    margin: 2rem auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 1rem;
+  }
+  
+  form input, form textarea, form button {
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #555;
+  }
+  
+  footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }

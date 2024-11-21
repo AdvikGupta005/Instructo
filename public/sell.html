@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructo - Sell Notes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Instructo</h1>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-contact.html">About & Contact</a></li>
+        <li><a href="sell.html">Sell Notes</a></li>
+        <li><a href="marketplace.html">Marketplace</a></li>
+      </ul>      
+    </nav>
+  </header>
+
+  <section id="sell-notes">
+    <h2>Sell Your Notes</h2>
+    <form id="sellForm">
+      <label for="title">Title:</label>
+      <input type="text" id="title" name="title" required>
+      
+      <label for="description">Description:</label>
+      <textarea id="description" name="description" required></textarea>
+
+      <label for="price">Price ($):</label>
+      <input type="number" id="price" name="price" min="0" required>
+      
+      <label for="file">Attach File:</label>
+      <input type="file" id="file" name="file" accept=".pdf,.doc,.docx,.txt" required>
+      
+      <button type="submit">Post Notes</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2024 Instructo. All rights reserved.</p>
+  </footer>
+
+  <script src="sell.js"></script>
+</body>
+</html>
